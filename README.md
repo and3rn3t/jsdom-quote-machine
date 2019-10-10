@@ -14,33 +14,33 @@ https://pages.git.generalassemb.ly/dang/lab-jsdom-quote-machine/solution/
 
 ![](./assets/demo.png)
 
-## Exercise
+## Instructions
 
-Let's apply what we learned in class to make the Quote Machine website more interactive. The HTML and CSS is already provided for you, we simply need to make updates to JavaScript file provided. 
+Let's apply what we learned in class to make the Quote Machine website more interactive. The HTML and CSS is already provided for you, you simply need to make updates to the JavaScript file provided. Do all your work within the [starter folder](./starter/).
 
 ## Tasks
 
 1. Link the `main.js` JavaScript file to the HTML page with the `script` tag in the appropriate place. 
 
-2. Add in an event handler to capture the form submission for when a user adds a new quote.
+2. Add an event handler to capture the form submission for when a user adds a new quote.
 
-3. Prevent the form from submitting when a user submits the form with `preventDefault()` on the event object.
+3. Prevent the form from submitting when a user saves the form with `preventDefault()` on the event object.
 
-4. Obtain and store the values of the quote and author that the user entered into the variables `quoteTxt` and `author`.
+4. Obtain and store the values of the quote and author form fields into the variables `quoteTxt` and `author`.
 
 5. Update the `blockquote` and `p` element in the `.hero` container with the quote and author the user entered.
 
 6. When a user enters a new quote, it should appear in the list of quotes using `appendChild`.
 
-7. On second thought, change the position of where the quote is inserted, place new quotes at the top of the list of quotes.
+7. On second thought, change the position of where new quotes are inserted, place new quotes at the top of the list of existing quotes.
 
-8. When a user successfully submits the form, the form contents should be reset to empty strings.
+8. When a user successfully submits the form, the form fields should be cleared.
 
-9. Update the HTML and remove the default quotes that appear in the HTML when the page first loads.
+9. Update the HTML and remove the default quotes that appear when the page initially loads.
 
 10. A user should be required to enter both a quote and an author when saving.
 
-11. Use JavaScript to load the following quote data when the page first loads: 
+11. Populate the following quote data when the page first loads: 
 
 ```js
 const defaultQuotes = [
@@ -66,4 +66,4 @@ const defaultQuotes = [
 
 ## Bonus 
 
-Have the main quote at the top randomly pick a quote from the `defaultQuotes` array and display a new one every 5 seconds. 
+Have the main quote at the top randomly pick a quote from the `defaultQuotes` array and display a new random one every 5 seconds. 
