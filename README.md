@@ -1,1 +1,2 @@
-# lab-jsdom-quote-machine
+# Quote Machine
+
