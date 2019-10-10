@@ -9,7 +9,10 @@ Students should be comfortable with:
 
 ### Demo
 
-A working version of this code can be seen here: https://pages.git.generalassemb.ly/dang/lab-jsdom-quote-machine/solution/
+A working version of this code can be seen here: 
+https://pages.git.generalassemb.ly/dang/lab-jsdom-quote-machine/solution/
+
+![](./assets/demo.png)
 
 ## Exercise
 
