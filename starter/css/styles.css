@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 500px auto;
+  grid-template-columns: 450px auto;
   grid-template-rows: 60px 250px auto 50px;
   grid-gap: 3px; 
   font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
@@ -47,7 +47,7 @@ section.hero {
 }
 
 section.hero blockquote {
-  font: bold 3.5em 'Pinyon Script', cursive;
+  font: bold 3em 'Pinyon Script', cursive;
   margin-bottom: 0;
 }
 
@@ -86,7 +86,7 @@ section.hero p {
 }
 
 .quote blockquote {
-  font: 1.3em 'Pinyon Script', cursive;
+  font: 1.7em 'Pinyon Script', cursive;
 }
 
 .quote p {
