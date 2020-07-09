@@ -45,21 +45,21 @@ Let's apply what we learned in class to make the Quote Machine website more inte
 ```js
 const defaultQuotes = [
     {
-      "quote": "Whether you think you can or think you can’t, you’re right.",
-      "author": "Henry Ford"
+        quote: "Whether you think you can or think you can’t, you’re right.",
+        author: "Henry Ford"
     },
     {
-      "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
-      "author": "Winston Churchill"
+        quote: "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.",
+        author: "Winston Churchill"
     },
     {
-      "quote": "Who looks outside, dreams; who looks inside, awakens.",
-      "author": "Carl Jung"
+        quote: "Who looks outside, dreams; who looks inside, awakens.",
+        author: "Carl Jung"
     },
     {
-      "quote": "Darkness cannot drive out darkness, only light can do that. Hate cannot drive out hate, only love can do that.",
-      "author": "Dr. Martin Luther King"
-    }];
+        quote: "Darkness cannot drive out darkness, only light can do that. Hate cannot drive out hate, only love can do that.",
+        author: "Dr. Martin Luther King"
+}]
 ``` 
 
 12. Make sure that every time a quote is added, it's also added to the `defaultQuotes` array. 
