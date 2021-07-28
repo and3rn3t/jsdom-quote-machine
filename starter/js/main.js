@@ -15,4 +15,7 @@ saveBtn.addEventListener('click', (event) => {
 
     heroQuote.innerHTML = inputQuote;
     heroAuthor.innerHTML = inputAuthor;
+
+    quoteTxt.value = '';
+    author.value = '';
 })
