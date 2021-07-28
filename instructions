@@ -5,7 +5,9 @@ Done 4. Obtain and store the values of the quote and author form fields into the
 Done 5. Update the blockquote and p element in the .hero container with the quote and author the user entered.
 Done 8. When a user successfully submits the form, the form fields should be cleared.
 
-6. When a user enters a new quote, it should appear in the list of quotes using appendChild.
+Working 6. When a user enters a new quote, it should appear in the list of quotes using appendChild.
+
+
 7. On second thought, change the position of where new quotes are inserted, place new quotes at the top of the list of existing quotes.
 9. Update the HTML and remove the default quotes that appear when the page initially loads.
 10. A user should be required to enter both a quote and an author when saving.
