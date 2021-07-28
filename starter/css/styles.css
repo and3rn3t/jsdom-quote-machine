@@ -39,9 +39,10 @@ nav ul li a {
 
 section.hero {
   grid-column: span 2;
-  background-image: url(http://getwallpapers.com/wallpaper/full/2/e/b/1406291-cool-inspirational-background-pictures-1920x1200.jpg);
+  background-image: url(./wallpaper.jpg);
   background-repeat: no-repeat;
   background-position: 0 65%;
+  color: white;
   background-size: cover;
   text-align: center;
 }
@@ -52,6 +53,7 @@ section.hero blockquote {
 }
 
 section.hero p {
+  font-size: large;
   font-style: italic;
 }
 
