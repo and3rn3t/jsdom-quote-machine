@@ -1,9 +1,11 @@
-// defining variables to parts of the page I will need for input and listeners
+// grabbing elements needed for listener
 let heroQuote = document.querySelector('.hero blockquote');
 let heroAuthor = document.querySelector('.hero p');
 let quoteList = document.querySelector('.quotes');
-let quoteTxt = document.querySelector('#quote-txt');
-let author = document.querySelector('#author');
+
+// grabbing input text from user
+let inputTxt = document.querySelector('#quote-txt');
+let inputAuthor = document.querySelector('#author');
 
 // grabbing Save button to use in event listener
 let saveBtn = document.querySelector('#save-btn');
@@ -11,24 +13,32 @@ let saveBtn = document.querySelector('#save-btn');
 // Event listener to add input quotation to hero banner
 saveBtn.addEventListener('click', (event) => {
     event.preventDefault();
-    let inputQuote = quoteTxt.value;
-    let inputAuthor = author.value;
+    let quoteTxt = inputTxt.value;
+    let author = inputAuthor.value;
 
-    heroQuote.innerHTML = inputQuote;
-    heroAuthor.innerHTML = inputAuthor;
+    heroQuote.innerHTML = quoteTxt;
+    heroAuthor.innerHTML = author;
+
+    // Call the quote generator with the parameters defined above and 
+    quoteGenerator(quoteTxt, author, quoteList);
 
     // Clears input text values
-    quoteTxt.value = '';
-    author.value = '';
+    inputTxt.value = '';
+    inputAuthor.value = '';
 });
 
-let quoteGenerator = (quoteTxt, author, quoteList) => {
-    let quote = document.createElement('li');
-    quote.setAttribute('class', 'quote');
+let quoteGenerator = (quoteTxt, author) => {
+    let newQuote = document.createElement('li');
+    newQuote.setAttribute('class', 'quote');
 
     let newQuoteTxt = document.createElement('blockquote');
     newQuoteTxt.innerText = quoteTxt;
 
     let newAuthor = document.createElement('p');
     newAuthor.innerText = author;
+
+    newQuote.appendChild(newQuoteTxt);
+    newQuote.appendChild(newAuthor);
+
+    quoteList.prepend(newQuote);
 };
