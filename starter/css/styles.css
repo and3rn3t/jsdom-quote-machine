@@ -47,7 +47,7 @@ section.hero {
 }
 
 section.hero blockquote {
-  font: bold 3em 'Pinyon Script', cursive;
+  font-size: xx-large;
   margin-bottom: 0;
 }
 
@@ -86,7 +86,7 @@ section.hero p {
 }
 
 .quote blockquote {
-  font: 1.7em 'Pinyon Script', cursive;
+  font-size: large;
 }
 
 .quote p {
@@ -104,4 +104,3 @@ footer {
 .content {
   padding: 10px;
 }
-  
